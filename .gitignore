@@ -1,0 +1,24 @@
+# Maven
+target/
+*.jar
+*.war
+*.zip
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+*.class
+*.log
+
+# Config backups
+*.yml~
+*.yml.bak
