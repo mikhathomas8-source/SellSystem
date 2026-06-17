@@ -1,0 +1,12 @@
+name: SellSystem
+version: 1.0.0
+main: com.sellsystem.SellSystemPlugin
+description: A simple sell system plugin for Minecraft 1.21 with Vault integration
+authors: [Your Name]
+depend: [Vault]
+
+commands:
+  sell:
+    description: Open sell chest interface
+    usage: /sell [help|prices <item>|reload]
+    aliases: [sellsystem]
